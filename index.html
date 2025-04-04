@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100vh;
+            background-image: url("../task2/imgs/pexels-shvetsa-3786126.jpg");
+            background-size: cover;
+        }
+
+        .cont{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .main{
+            width: 500px;
+            height: auto;
+            border: 4px solid;
+            border-color: rgb(6, 181, 250);
+            background-color: rgba(255, 255, 255, 0.603);
+        }
+
+        .box-1{
+            width: 100%;
+            height: 23%;
+            
+            display: flex;
+        }
+
+        .box-1-left{
+            height: 100%;
+            width: 70%;
+            
+        }
+        h1{
+            text-align: justify;
+           
+            margin: 15px;
+            font-size: 30px;
+            
+        }
+        #btn-1{
+            width: 110px;
+            height: 30px;
+            background-color: cornflowerblue;
+            border-radius: 5px;
+           margin-left: 15px;
+           margin-top: 5px;
+        }
+        #btn-1:hover{
+            background-color: yellow;
+        }
+        #tag{
+            padding-left: 13px;
+        }
+        .box-1-right{
+            height: 100%;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: end;
+       
+        }
+        img{
+            width: 100%;
+            height: 80%;
+            margin-right: 10px;
+        }
+        .box-2{
+            width: 100%;
+            height: 23%;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .color{
+            width: 100%;
+            height: 100%;
+            border: 2px solid darkturquoise;
+            background-color: rgb(163, 215, 236);
+            border-radius: 20px;
+            display: flex;
+        }
+        .color-left{
+            width: 20%;
+            height: 100%;
+            padding-top: 20px;
+
+        }
+        .color-right{
+            width: 80%;
+            height: 100%;
+            margin-left: 20px;
+            padding-top: 10px;
+        }
+        p{
+            color: rgb(30, 31, 29);
+            margin-right: 10px;
+            text-align: justify;
+        }
+        
+        .box-3{
+            width: 100%;
+            height: 23%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+            
+            
+        }
+        .start{
+            width: 30%;
+            height: 90%;
+            background-color: green;
+            border-radius: 9px;
+            
+        }
+        #cough{
+            padding-bottom: 7px;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+        }
+       
+       
+       
+        .center{
+            width: 30%;
+            height: 90%;
+            background-color: rgb(187, 39, 94);
+            border-radius: 9px;
+        }
+        #fever{
+            padding-bottom: 7px;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+        }
+        .end{
+            width: 30%;
+            height: 90%;
+            background-color: rgb(155, 18, 234);
+            border-radius: 9px;
+        }
+        #Headache{
+            padding-bottom: 7px;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+        }
+        .box-4{
+            width: 100%;
+            height: 23%;
+            padding: 6px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .color-2{
+            width: 100%;
+            height: 100%;
+            background-color: pink; 
+            border: 2px solid rgb(247, 169, 182);
+            border-radius: 10px;
+            display: flex;
+            padding: 5px;
+        }
+        .img-2{
+            width: 30%;
+            height: 100%;
+            margin-top: 10px;
+        }
+        .text-2{
+            width: 70%;
+            height: 100%;
+            padding-left: 10px;
+            margin-top: 5px;
+        }
+        #btn{
+            width: 110px;
+            height: 30px;
+            background-color: cornflowerblue;
+            border-radius: 5px;
+        }
+        #btn:hover{
+            background-color: yellow;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    
+<div class="cont">
+    <div class="main">
+       <div class="box-1">
+                <div class="box-1-left">
+                  <h1>All you need to know about COVID-19</h1>
+                  <button id="btn-1">Know more</button>
+                </div>
+            <div class="box-1-right">
+                <img src="../task2/imgs/images.jpg">
+            </div>
+        </div>
+           <div class="box-2">
+            <div class="color">
+                <div class="color-left">
+                    <img src="../task2/imgs/icons8-coronavirus-50.png">
+                </div>
+                <div class="color-right">
+                    <h2>COVID-19 Test</h2>
+                    <br>
+                    <p>If you want have full information about the virus click the above button (COVID-19)</p>
+                </div>
+            </div>
+           </div>
+            <h2 id="tag">Symptoms</h2>
+           <div class="box-3">
+                <div class="start">
+                    <img src="../task2/imgs/icons8-dry-cough-50.png" width="100%">
+                    <h2 id="cough">Dry Cough</h2>
+                        
+                </div>
+                                    <div class="center">
+                                        <img src="../task2/imgs/icons8-fever-50.png" width="100%">
+                                        <h2 id="fever">High Fever</h2>
+                                    </div>
+                                   <div class="end">
+                                    <img src="../task2/imgs/icons8-headache-50.png" width="100%">
+                                    <h2 id="Headache">Headache</h2>
+                                   </div>
+           </div>
+           <h2 id="tag">Videos</h2>
+           <div class="box-4">
+              <div class="color-2">
+                           <div class="img-2">
+                                   <img id="img-3" src="../task2/imgs/icons8-doctor-50.png">
+                            </div>
+                            <div class="text-2">
+                                   <h2 id="heading">To prevent the spread of.....</h2>
+                                   <br>
+                                   <p>If you think you have been exposed to novel corona virus(COVID-19)</p>
+                                   <br>
+                                   <button id="btn">Watch Video</button>
+                            </div>
+              </div>
+
+           </div>
+    </div>
+</div>
+    
+</body>
+</html>
